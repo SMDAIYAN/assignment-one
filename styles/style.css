@@ -375,3 +375,39 @@ main {
    background-color: orangered;
    color: white;
 }
+
+/* footer styles */
+
+footer {
+    padding: 150px;
+    color: white;
+    background-color: black;
+
+}
+
+.ftr-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone, .link {
+    display: flex;
+    align-items: center;
+}
+
+footer h5 {
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+.ftr-icons {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.ftr-ending {
+    display: flex;
+    justify-content: space-between;
+}
