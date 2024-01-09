@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 1400px;
+}
+
+main {
+    margin: 0 150px;
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: rgb(253, 131, 0);
+    text-shadow: 0 0 10px black;
+    font-family: 'Merriweather', serif;
+}
+
+.banner-text {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.banner-greeting {
+    font-size: 30px;
+    font-weight: 600;
+    color: aqua;
+}
+
+.banner-title {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* new year offer section style */
+
+.new-year-offer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.nyo-texts {
+    text-align: center;
+}
+
+.offer-title {
+    font-size: 90px;
+    color: rgb(255, 94, 0);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.nyo-des {
+    color: rgb(255, 94, 0);
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.nyo-categories {
+    color: black;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nyo-image {
+    height: 400px;
+    width: 600px;
+    margin: 80px auto;
+}
