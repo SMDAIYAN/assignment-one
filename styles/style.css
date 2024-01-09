@@ -1,125 +1,153 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-    width: 1400px;
+  width: 1400px;
 }
 
 main {
-    margin: 0 150px;
+  margin: 0 150px;
 }
 
 /* banner styles */
 
 .banner {
-    display: flex;
-    justify-content: center;
-    background-image: url(../images/Banner\ Image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    color: rgb(253, 131, 0);
-    text-shadow: 0 0 10px black;
-    font-family: 'Merriweather', serif;
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: rgb(253, 131, 0);
+  text-shadow: 0 0 10px black;
+  font-family: "Merriweather", serif;
 }
 
 .banner-text {
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .banner-greeting {
-    font-size: 30px;
-    font-weight: 600;
-    color: aqua;
+  font-size: 30px;
+  font-weight: 600;
+  color: aqua;
 }
 
 .banner-title {
-    font-size: 72px;
-    font-weight: 900;
+  font-size: 72px;
+  font-weight: 900;
 }
 
 /* new year offer section style */
 
 .new-year-offer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 150px;
 }
 
 .nyo-texts {
-    text-align: center;
+  text-align: center;
 }
 
 .offer-title {
-    font-size: 90px;
-    color: rgb(255, 94, 0);
-    font-weight: 700;
-    margin-bottom: 40px;
+  font-size: 90px;
+  color: rgb(255, 94, 0);
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
 .nyo-des {
-    color: rgb(255, 94, 0);
-    font-size: 23px;
-    font-weight: 500;
+  color: rgb(255, 94, 0);
+  font-size: 23px;
+  font-weight: 500;
 }
 
 .nyo-categories {
-    color: black;
-    font-weight: 700;
-    font-size: 45px;
+  color: black;
+  font-weight: 700;
+  font-size: 45px;
 }
 
 .nyo-image {
-    height: 400px;
-    width: 600px;
-    margin: 80px auto;
+  height: 400px;
+  width: 600px;
+  margin: 80px auto;
 }
 
 /* welcome to midnight party section design */
 
 .wmp {
-    display: flex;
-    justify-content: space-between;
-    background-image: url(../images/Vectorrr.png);
-    height: 600px;
-    padding: 140px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../images/Vectorrr.png);
+  height: 600px;
+  padding: 140px;
 }
 
 .wmp-heading {
-    font-weight: 900px;
-    font-size: 60px;
-    font-family: 'Merriweather', serif;
-    letter-spacing: 7;
-    color: rgb(255, 255, 255);
+  font-weight: 900px;
+  font-size: 60px;
+  font-family: "Merriweather", serif;
+  letter-spacing: 7;
+  color: rgb(255, 255, 255);
 }
 
 .wmp-des {
-    margin-top: 30px;
-    font-size: 15px;
-    width: 450px;
-    color: white;
-    font-weight: 400;
+  margin-top: 30px;
+  font-size: 15px;
+  width: 450px;
+  color: white;
+  font-weight: 400;
 }
 
 .wmp-button {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
-    background: transparent;
-    border: none;
-    margin: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background: transparent;
+  border: none;
+  margin: 40px;
 }
 
 .wmp-img {
-    height: 400px;
-    width: 300px;
+  height: 400px;
+  width: 300px;
 }
 
+/* Event info section style */
+
+.event-info {
+  background-image: linear-gradient(
+    rgb(230, 155, 168),
+    rgba(247, 185, 185, 0.99)
+  );
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+  margin: 120px auto;
+  padding: 80px;
+  height: 350px;
+}
+
+.eis {
+  color: orangered;
+}
+
+.ei-button {
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 50px auto;
+}
