@@ -151,3 +151,77 @@ main {
     border-radius: 10px;
     margin: 50px auto;
 }
+
+
+/* coming soon section */
+
+
+
+.cs-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: orangered;
+}
+
+.cs-heading {
+    color: black;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+}
+
+.cs-des {
+    font-size: 20px;
+    font-weight: 400;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.cs-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    padding: 15px;
+    border: 10px solid orangered;
+    border-radius: 50%;
+}
+.cs-img {
+    height: 300px;
+    width: 300px;
+}
+
+.cs-text-left {
+    margin-right: 50px;
+}
+
+.cs-text-right {
+    margin-left: 110px;
+    margin-top: 80px;
+}
+
+.cs-2024 {
+    font-size: 50px;
+    font-weight: 700;
+    color: orangered;
+}
+
+.csr-des {
+    width: 250px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.csr-img {
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.cs-container {
+    margin-top: 100px;
+    display: flex;
+}
+
+/*  */
