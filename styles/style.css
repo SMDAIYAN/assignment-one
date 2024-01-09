@@ -315,3 +315,63 @@ main {
     width: 33%;
 }
 
+.pdct-img:hover {
+    transform: scale(1.2);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-property: all;
+}
+
+/* subscribe section design */
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(230, 191, 227, 0.763);
+    margin: 120px 0;
+}
+
+.scrb-img {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.scrb-heading {
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.scrb-des {
+    font-size: 20;
+    font-weight: 400;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+.scrb-form {
+    padding: 50px;
+}
+
+.scrb-input {
+   width: 600px;
+   height: 80px;
+   padding: 30px;
+   border-radius: 50px 0 0 50px;
+}
+
+.scrb-button {
+    width: 200px;
+    height: 80px;
+   padding: 20px;
+   border-radius: 0 50px 50px 0;
+   font-size: 15px;
+   font-weight: 600;
+   background-color: orangered;
+   color: white;
+}
