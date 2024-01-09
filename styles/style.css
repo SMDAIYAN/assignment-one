@@ -150,6 +150,7 @@ main {
     padding: 10px;
     border-radius: 10px;
     margin: 50px auto;
+    border: none;
 }
 
 
@@ -193,6 +194,7 @@ main {
 }
 
 .cs-text-left {
+    margin-top: 80px;
     margin-right: 50px;
 }
 
@@ -224,4 +226,61 @@ main {
     display: flex;
 }
 
-/*  */
+/* holiday sell sectin styles */
+
+.holiday-sell {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hs-t  {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.hs-heading {
+    font-size: 75px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    margin-top: 20px;
+}
+
+.hs-s {
+    color: orangered;
+}
+
+.hs-des {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.hs-pics {
+    position: relative;
+    margin-top: 500px;
+}
+
+.hs-img1 {
+    height: 250px;
+    width: 100%;
+}
+
+.hs-img3 {
+    position: absolute;
+    bottom: 20px;
+    left: -90px;
+    height: 680px;
+    width: 700px;
+}
+
+.hs-img2 {
+    position: absolute;
+    right: 0px;
+    bottom: 252px;
+}
+
+.hs-img4 {
+    position: absolute;
+    bottom: 310px;
+    right: 281px;
+}
