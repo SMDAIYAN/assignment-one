@@ -284,3 +284,34 @@ main {
     bottom: 310px;
     right: 281px;
 }
+
+/* products section design */
+
+.products {
+    margin-top: 100px;
+}
+
+.pdct-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: orangered;
+}
+
+.pdct-heading {
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.pdct-des {
+    font-size: 20;
+    font-weight: 400;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.pdct-img {
+    width: 33%;
+}
+
